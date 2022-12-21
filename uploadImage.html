@@ -1,0 +1,31 @@
+<html>
+<head>
+    <title>upload resume</title>
+</head>
+<body>
+<center>
+    <form enctype="multipart/form-data">
+        <label>select resume include(.jpeg,.png) : </label>
+        <input type="file" id="image" accept="image/*"><br><br>
+        <button type="button" onclick="upload()">Upload Resume</button>
+    </form>
+</center>
+
+<center>
+    <button type="button" onclick="logout()">LogOut</button>
+</center>
+
+
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.8.0/firebase.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#config-web-app -->
+
+
+<script src="js/firecon.js" type="text/javascript"></script>
+
+<script type="text/javascript" src="js/uploadimage.js"></script>
+<script type="text/javascript" src="js/logout.js"></script>
+</body>
+</html>
